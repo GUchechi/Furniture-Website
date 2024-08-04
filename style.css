@@ -132,3 +132,40 @@ section {
   transform: rotate(180deg);
   color: var(--primary-color);
 }
+
+.cart-items-container .cart-item {
+  position: relative;
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.cart-items-container .cart-item .fa-times {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--black);
+}
+
+.cart-items-container .cart-item .fa-times:hover {
+  color: var(--primary-color);
+}
+
+.cart-items-container .cart-item img {
+  height: 7rem;
+}
+
+.cart-items-container .cart-item .content h3 {
+  font-size: 2rem;
+  color: var(--black);
+  padding-bottom: 0.5rem;
+}
+
+.cart-items-container .cart-item .content .price {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  text-align: left;
+}
