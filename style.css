@@ -279,3 +279,41 @@ section {
 .account-form form .btn {
   width: 100%;
 }
+
+/* home */
+.home {
+  padding: 0;
+}
+
+.home .slide {
+  min-height: 100vh;
+  background-size: cover !important;
+  background-position: center !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .slide .content {
+  width: 70rem;
+  text-align: center;
+}
+
+.home .slide .content h3 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: var(--bg);
+  line-height: 1.1;
+  padding: 2rem 0;
+}
+
+.home .slide .content span {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
+
+.home .swiper-slide-active .content {
+  display: inline-block;
+}
+
+/* home */
